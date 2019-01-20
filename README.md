@@ -16,15 +16,15 @@ create table redirect (
 );
 
 4. You can clone or download this repository in your local file, then run it. make sure you have installed this go library in your computer 
-  1. go get -u github.com/gorilla/mux => Gorilla router 
-  2. go get -u github.com/go-sql-driver/mysql => mysql driver
+  - go get -u github.com/gorilla/mux => Gorilla router 
+  - go get -u github.com/go-sql-driver/mysql => mysql driver
 
 5. Use these 2 endpoint you will use for this program
-  1. http://localhost:12345/create 
+  * http://localhost:12345/create 
       => FormData 
           key : url
           value : 'the_link_you_want_to_short'
-  2. http://localhost:12345/{slug_variable}
+  * http://localhost:12345/{slug_variable}
 
 or you can import this link into postman https://www.getpostman.com/collections/c82fcfc544647ac07def
 
