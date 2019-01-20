@@ -9,7 +9,7 @@ Please follow this instruction to use this program
 
 3. Create new table 'redirect' for database 'db_redirects', you can use this query:
 
-create table redirect (
+* create table redirect (
 	id int auto_increment primary key,
     slug varchar(255),
     url varchar(255)
